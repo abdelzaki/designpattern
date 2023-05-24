@@ -5,5 +5,5 @@ class IAttachbehaviour
 {
 
 public:
-    virtual void attack(std::shared_ptr<Character> character) = 0;
+    virtual void attack(std::shared_ptr<ICharacter> character) = 0;
 };

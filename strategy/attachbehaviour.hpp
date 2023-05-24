@@ -6,7 +6,7 @@ class Attachbehaviour : public IAttachbehaviour
 {
 public:
     Attachbehaviour(std::string name);
-    virtual void attack(std::shared_ptr<Character> character) override;
+    virtual void attack(std::shared_ptr<ICharacter> character) override;
 
 protected:
     std::string m_name;
